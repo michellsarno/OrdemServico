@@ -11,7 +11,7 @@ public class DaoFactory {
 
 		try {
 			
-			retorno = DriverManager.getConnection("jdbc:mysql://localhost/fj21", "root", "");
+			retorno = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "P@ssw0rd");
 			
 		} catch (Exception e) {
 			throw new RuntimeException();
